@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/bankexample/static/css/main.b1383130.css",
-    "main.js": "/bankexample/static/js/main.1e74bd99.js",
-    "index.html": "/bankexample/index.html",
-    "main.b1383130.css.map": "/bankexample/static/css/main.b1383130.css.map",
-    "main.1e74bd99.js.map": "/bankexample/static/js/main.1e74bd99.js.map"
+    "main.css": "/bank/static/css/main.b1383130.css",
+    "main.js": "/bank/static/js/main.1e74bd99.js",
+    "index.html": "/bank/index.html",
+    "main.b1383130.css.map": "/bank/static/css/main.b1383130.css.map",
+    "main.1e74bd99.js.map": "/bank/static/js/main.1e74bd99.js.map"
   },
   "entrypoints": [
     "static/css/main.b1383130.css",
