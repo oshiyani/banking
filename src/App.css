@@ -1,0 +1,174 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #ff6f61, #ff9a8b);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Main container */
+div {
+  width: 420px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  text-align: center;
+  margin: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect on the card */
+div:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+h2 {
+  color: #2e4053;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(45deg, #ff6f61, #ff9a8b);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Form and inputs */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  padding: 12px;
+  border: 2px solid #ff6f61;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  background-color: #f9f9f9;
+  transition: border 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus {
+  outline: none;
+  border-color: #ff9a8b;
+  background-color: #fff3f3;
+}
+
+button {
+  padding: 12px;
+  background-color: #ff6f61;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #d85d4e;
+  transform: translateY(-2px);
+}
+
+/* Account details section */
+h3 {
+  margin-top: 20px;
+  color: #2e4053;
+  font-size: 1.3rem;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+li {
+  margin-bottom: 12px;
+  color: #ff6f61;
+  font-size: 1.1rem;
+}
+
+li strong {
+  color: #2e4053;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 15px;
+  background-color: #e74c3c;
+}
+
+button:hover {
+  background-color: #c0392b;
+  transform: translateY(-2px);
+}
+
+/* Balance and transaction section */
+h2 {
+  margin: 10px 0;
+  color: #27ae60;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+  color: #f39c12;
+}
+
+input[type="number"] {
+  width: 100%;
+  text-align: right;
+  margin-top: 5px;
+  padding: 12px;
+  background-color: #fff;
+  border: 2px solid #27ae60;
+  border-radius: 8px;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  background-color: #f1c40f;
+  border: 2px solid #f39c12;
+  border-radius: 8px;
+  color: #2c3e50;
+}
+
+select option {
+  padding: 10px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  background-color: #3498db;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+7
